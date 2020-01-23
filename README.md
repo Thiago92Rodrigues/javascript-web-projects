@@ -1,54 +1,36 @@
 
+## Bookmarker
+<h3 align="center">
+	<br>
+	<img width="600" src="https://github.com/Thiago92Rodrigues/web-apps/blob/master/bookmarker/bookmarker.png">
+	<br>
+</h3>
 
-## JQuery
+## Memory Game
+<h3 align="center">
+	<br>
+	<img width="600" src="https://github.com/Thiago92Rodrigues/web-apps/blob/master/memory-game/memory-game1.png">
+    <img width="600" src="https://github.com/Thiago92Rodrigues/web-apps/blob/master/memory-game/memory-game2.png">
+	<br>
+</h3>
 
-JQuery CDN ```https://code.jquery.com/jquery-3.4.1.min.js```
- 
-### Selectors
+## Movie Info
+<h3 align="center">
+	<br>
+	<img width="600" src="https://github.com/Thiago92Rodrigues/web-apps/blob/master/movie-info/movie-info.png">
+	<br>
+</h3>
 
-```js
-$('*') // select everything on the page
-$('h1') // select by element
-$('#heading') // select by id
-$('.container') // select by class
-$(':button') // select by button type (button / submit / text)
-$('[href]') // select all links on the page
-$('[href="url"]') // select a specific href
+## Music Maker
+<h3 align="center">
+	<br>
+	<img width="600" src="https://github.com/Thiago92Rodrigues/web-apps/blob/master/music-maker/music-maker.png">
+	<br>
+</h3>
 
-// it's possible to nest elements
-$('ul#list li:first') // select the first element of a list
-$('ul#list li:last')
-$('ul#list li:even') // select all the even elements of a list
-$('ul#list li:odd')
-$('ul#list li:nth-child(3)')
-
-// examples
-$('h1').hide();
-$(':text').show();
-$('ul#list li:nth-child(3)').css('list-style', 'none');
-$('.container').css('background-color', 'red');
-```
-
-### Events
-```js
-
-$('#btn1').click(function(){});
-
-$('#btn1').dblclick(function(){});
-
-$('#btn1').hover(function(){});
-
-$('#btn1').focus(function(){});
-
-$('#btn1').blur(function(){});
-
-$('#btn1').keyup(function(){});
-
-.on('click', function(){});
-.on('mouseenter', function(){});
-.on('mouseleave', function(){});
-.on('mousemove', function(){});
-.on('mousedown', function(){});
-.on('mouseup', function(){});
-
-```
+## Tic Tac Toe
+<h3 align="center">
+	<br>
+	<img width="600" src="https://github.com/Thiago92Rodrigues/web-apps/blob/master/tic-tac-toe/tic-tac-toe.png">
+	<br>
+</h3>
