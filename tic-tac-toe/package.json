@@ -4,7 +4,8 @@
   "description": "",
   "main": "",
   "scripts": {
-    "build": "node_modules/.bin/gulp sass",
+    "start": "./node_modules/.bin/serve",
+    "build": "./node_modules/.bin/gulp sass",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,5 +14,8 @@
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-sass": "^4.1.0"
+  },
+  "dependencies": {
+    "serve": "^11.3.0"
   }
 }
