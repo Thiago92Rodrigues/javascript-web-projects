@@ -117,10 +117,15 @@ function declareWinner(who) {
 
 function bestSpot() {
   if (difficulty == "easy") {
-    return emptySquares()[0];
+    const squares = emptySquares();
+    return squares[getRandomInt(squares.length)];
   } else {
     return minimax(originalBoard, AIPlayer).index;
   }
+}
+
+function getRandomInt(max) {
+  return Math.floor(Math.random() * Math.floor(max));
 }
 
 function emptySquares() {
