@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tic Tac Toe</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <h1>Tic-Tac-Toe</h1>
+
+    <table id="game-board">
+      <tr>
+        <td class="cell" id="0"></td>
+        <td class="cell" id="1"></td>
+        <td class="cell" id="2"></td>
+      </tr>
+      <tr>
+        <td class="cell" id="3"></td>
+        <td class="cell" id="4"></td>
+        <td class="cell" id="5"></td>
+      </tr>
+      <tr>
+        <td class="cell" id="6"></td>
+        <td class="cell" id="7"></td>
+        <td class="cell" id="8"></td>
+      </tr>
+    </table>
+
+    <div class="settings-container">
+      <button id="settings" onclick="readyToBegin()">
+        <i class="fas fa-cog"></i> Settings
+      </button>
+    </div>
+
+    <div class="modal start-game">
+      <div class="container">
+        <div id="start-game">
+          <h2>How would you like to play?</h2>
+          <h3>Difficulty:</h3>
+          <div class="difficulty">
+            <label>
+              <input
+                type="radio"
+                name="difficulty"
+                id="easy"
+                value="easy"
+                checked
+              />easy
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="difficulty"
+                id="hard"
+                value="hard"
+              />hard
+            </label>
+          </div>
+
+          <h3>Play as:</h3>
+          <div class="player">
+            <label>
+              <input
+                type="radio"
+                name="player"
+                id="playero"
+                value="O"
+                checked
+              />O
+            </label>
+            <label>
+              <input type="radio" name="player" id="playerx" value="X" />X
+            </label>
+          </div>
+
+          <div class="btn-start">
+            <button id="start" onclick="startGame()">Play</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal end-game">
+      <div class="container">
+        <div id="end-game">
+          <p></p>
+          <div class="btn-start">
+            <button id="start" onclick="startGame()">Play</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
