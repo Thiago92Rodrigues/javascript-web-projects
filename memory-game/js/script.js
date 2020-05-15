@@ -13,6 +13,7 @@ function startGame() {
 
   for (let card of cards) {
     card.classList.remove("flip");
+    card.classList.remove("disabled");
     card.addEventListener("click", flipCard);
   }
 
@@ -64,6 +65,9 @@ function checkForMatch() {
 function disableCards() {
   firstCard.removeEventListener("click", flipCard);
   secondCard.removeEventListener("click", flipCard);
+
+  firstCard.classList.add("disabled");
+  secondCard.classList.add("disabled");
 
   resetBoard();
 }
