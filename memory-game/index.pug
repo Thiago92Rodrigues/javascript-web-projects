@@ -1,0 +1,17 @@
+doctype html
+html(lang='en')
+ head
+   title Memory Game
+   link(rel='stylesheet', href='./css/style.css')
+ body
+    section.memory-game
+      each val in ['aurelia', 'vue', 'angular', 'ember', 'backbone', 'react']
+        each i in [1, 2]
+          .memory-card(data-framework=val)
+            img.front-face(src='./img/'+val+'.svg' alt=val)
+            img.back-face(src="./img/js-badge.svg" alt='JS Badge')
+    .btn-restart
+      button(onclick='startGame()') Restart
+        i.fas.fa-play-circle
+
+    script(src='./js/script.js')
