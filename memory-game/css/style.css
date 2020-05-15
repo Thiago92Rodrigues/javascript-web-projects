@@ -33,6 +33,10 @@ body {
       transition: transform 0.2s; }
     .memory-game .memory-card.flip {
       transform: rotateY(180deg); }
+    .memory-game .memory-card.disabled .front-face {
+      border: 2px solid #f5bb00;
+      transform: rotateY(180deg) scale(0.9);
+      opacity: 0.9; }
     .memory-game .memory-card .front-face,
     .memory-game .memory-card .back-face {
       width: 100%;
@@ -43,7 +47,8 @@ body {
       background: #1c7ccc;
       backface-visibility: hidden; }
     .memory-game .memory-card .front-face {
-      transform: rotateY(180deg); }
+      transform: rotateY(180deg);
+      transition: all 0.5s ease-in; }
 
 .btn-restart {
   display: flex;
@@ -60,7 +65,7 @@ body {
     font-size: 25px;
     text-align: center;
     color: #e6e6e6;
-    transition: color 0.3s ease-out; }
+    transition: color 0.2s ease-out; }
     .btn-restart button i {
       margin-left: 10px; }
     .btn-restart button:hover {

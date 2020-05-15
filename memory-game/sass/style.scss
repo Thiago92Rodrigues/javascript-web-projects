@@ -42,6 +42,12 @@ body {
       transform: rotateY(180deg);
     }
 
+    &.disabled .front-face {
+      border: 2px solid #f5bb00;
+      transform: rotateY(180deg) scale(0.9);
+      opacity: 0.9;
+    }
+
     .front-face,
     .back-face {
       width: 100%;
@@ -55,6 +61,7 @@ body {
 
     .front-face {
       transform: rotateY(180deg);
+      transition: all 0.5s ease-in;
     }
   }
 }
@@ -75,7 +82,7 @@ body {
     font-size: 25px;
     text-align: center;
     color: rgb(230, 230, 230);
-    transition: color 0.3s ease-out;
+    transition: color 0.2s ease-out;
 
     i {
       margin-left: 10px;
