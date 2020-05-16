@@ -1,0 +1,22 @@
+#movies img,
+#movie img {
+  width: 100%;
+}
+
+#movies > div {
+  margin-bottom: 30px;
+}
+
+#movie .row .well a:last-of-type:hover {
+  color: #fff;
+}
+
+@media (min-width: 960px) {
+  #movies .col-md-3 .well {
+    height: 390px;
+  }
+
+  #movies .col-md-3 img {
+    height: 240px;
+  }
+}
