@@ -1,131 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Music Maker</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"/>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
 
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: "Montserrat", sans-serif;
-        }
-
-        .app {
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        header h1 {
-            margin: 50px 0px 30px 0px;
-            text-align: center;
-            font-size: 40px;
-        }
-
-        header p {
-            font-size: 20px;
-        }
-
-        .pads {
-            background: lightblue;
-            width: 100%;
-            display: flex;
-        }
-
-        .pads > div {
-            height: 100px;
-            width: 100px;
-            flex: 1;
-        }
-
-        .pad1 {
-            background: #60d394;
-        }
-        .pad2 {
-            background: #d36060;
-        }
-        .pad3 {
-            background: #c060d3;
-        }
-        .pad4 {
-            background: #d3d160;
-        }
-        .pad5 {
-            background: #606bd3;
-        }
-        .pad6 {
-            background: #60c2d3;
-        }
-
-        .visual > div {
-            position: absolute;
-            height: 50px;
-            width: 50px;
-            border-radius: 50%;
-            bottom: 0%;
-            left: 20%;
-            z-index: -1;
-        }
-
-        @keyframes jump {
-            0% {
-                bottom: 0%;
-                left: 20%;
-            }
-            50% {
-                bottom: 50%;
-                left: 50%;
-            }
-            100% {
-                bottom: 0%;
-                left: 80%;
-            }
-        }
-    </style>
-</head>
-
-<body>
+  <body>
     <div class="app">
-        <header>
-            <h1>Tap Music</h1>
-            <p>Make music with only one tap</p>
-        </header>
-        <div class="visual"></div>
-        <div class="pads">
-            <div class="pad1">
-                <audio class="sound" src="sounds/bubbles.mp3"></audio>
-            </div>
-            <div class="pad2">
-                <audio class="sound" src="sounds/clay.mp3"></audio>
-            </div>
-            <div class="pad3">
-                <audio class="sound" src="sounds/confetti.mp3"></audio>
-            </div>
-            <div class="pad4">
-                <audio class="sound" src="sounds/glimmer.mp3"></audio>
-            </div>
-            <div class="pad5">
-                <audio class="sound" src="sounds/moon.mp3"></audio>
-            </div>
-            <div class="pad6">
-                <audio class="sound" src="sounds/ufo.mp3"></audio>
-            </div>
+      <header>
+        <h1>Tap Music</h1>
+        <p>Make music with only one tap</p>
+      </header>
+      <div class="visual"></div>
+      <div class="pads">
+        <div class="pad1">
+          <audio class="sound" src="sounds/bubbles.mp3"></audio>
         </div>
+        <div class="pad2">
+          <audio class="sound" src="sounds/clay.mp3"></audio>
+        </div>
+        <div class="pad3">
+          <audio class="sound" src="sounds/confetti.mp3"></audio>
+        </div>
+        <div class="pad4">
+          <audio class="sound" src="sounds/glimmer.mp3"></audio>
+        </div>
+        <div class="pad5">
+          <audio class="sound" src="sounds/moon.mp3"></audio>
+        </div>
+        <div class="pad6">
+          <audio class="sound" src="sounds/ufo.mp3"></audio>
+        </div>
+      </div>
     </div>
 
-    <script src="script.js"></script>
-</body>
-
+    <script src="./js/script.js"></script>
+  </body>
 </html>
