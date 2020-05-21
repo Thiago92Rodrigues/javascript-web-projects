@@ -1,36 +1,3 @@
+# Learning Frontend
 
-## Bookmarker
-<h3 align="center">
-	<br>
-	<img width="600" src="https://github.com/Thiago92Rodrigues/web-apps/blob/master/bookmarker/bookmarker.png">
-	<br>
-</h3>
-
-## Memory Game
-<h3 align="center">
-	<br>
-	<img width="600" src="https://github.com/Thiago92Rodrigues/web-apps/blob/master/memory-game/memory-game1.png">
-    <img width="600" src="https://github.com/Thiago92Rodrigues/web-apps/blob/master/memory-game/memory-game2.png">
-	<br>
-</h3>
-
-## Movie Info
-<h3 align="center">
-	<br>
-	<img width="600" src="https://github.com/Thiago92Rodrigues/web-apps/blob/master/movie-info/movie-info.png">
-	<br>
-</h3>
-
-## Music Maker
-<h3 align="center">
-	<br>
-	<img width="600" src="https://github.com/Thiago92Rodrigues/web-apps/blob/master/music-maker/music-maker.png">
-	<br>
-</h3>
-
-## Tic Tac Toe
-<h3 align="center">
-	<br>
-	<img width="600" src="https://github.com/Thiago92Rodrigues/web-apps/blob/master/tic-tac-toe/tic-tac-toe.png">
-	<br>
-</h3>
+The objective of this repo is building small frontend projects for learning the basics concepts of web frontend programming (HTML5, CSS3 and Vanilla JavaScript) and also some others helpful tools like: Template Engines (Pug), CSS Pre-Processores (Sass), CSS Frameworks (Bootstrap, Materialize), JS Libraries (JQuery, Axios) and Frontend Builders (Gulp).
