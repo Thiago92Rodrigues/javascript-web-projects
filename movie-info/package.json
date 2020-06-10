@@ -1,15 +1,11 @@
 {
   "name": "movie-info",
   "version": "1.0.0",
-  "description": "",
-  "main": "",
-  "scripts": {
-    "start": "./node_modules/.bin/serve",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
+  "author": "Thiago Rodrigues",
   "license": "ISC",
+  "scripts": {
+    "start": "serve"
+  },
   "dependencies": {
     "serve": "^11.3.0"
   }

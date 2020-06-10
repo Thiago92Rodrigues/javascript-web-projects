@@ -1,16 +1,12 @@
 {
   "name": "memory-game",
   "version": "1.0.0",
-  "description": "",
-  "main": "",
-  "scripts": {
-    "start": "./node_modules/.bin/serve",
-    "build": "./node_modules/.bin/pug . -P && ./node_modules/.bin/gulp sass",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
+  "author": "Thiago Rodrigues",
   "license": "ISC",
+  "scripts": {
+    "start": "serve",
+    "build": "pug . -P && gulp sass"
+  },
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-sass": "^4.1.0",
