@@ -12,6 +12,6 @@
     "gulp-sass": "^4.1.0"
   },
   "dependencies": {
-    "serve": "^11.3.0"
+    "serve": "^14.2.0"
   }
 }
